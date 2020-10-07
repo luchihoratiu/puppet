@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths-ignore: ['**.md', 'docs/*', 'examples/*', 'ext/*', 'benchmarks/*']
   pull_request:
+    type: [opened, reopened, edited]
     paths-ignore: ['**.md', 'docs/*', 'examples/*', 'ext/*', 'benchmarks/*']
 
 jobs:
